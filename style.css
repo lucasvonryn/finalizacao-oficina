@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 150px;
+    text-align: center;
+    background-color: #606CF5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h2 {
+    padding: 60px;
+    font-weight: bold;
+}
+
+nav {
+    height: 20px;
+    text-align: center;
+    background-color: #3c4396;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main p {
+    padding-top: 25px;
+    line-height: 1.4em;
+}
+
+div#coluna1 {
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div#coluna2 {
+    width: 400px;
+    display: inline-block;
+}
+
+section {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: bold;
+    padding: 200px;
+}
+
+footer {
+    background-color: #606CF5;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.arrow{
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    animation: arrow 2s alternate infinite;
+}
+.arrow img{
+    width: 20px;
+}
+
+div.infinte{
+    background-color: #606CF5;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home, .btn{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home h2{
+    font-size: 30px;
+    
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@keyframes arrow {
+    0%{
+        top: 90%;
+        
+    }
+    100%{
+        top: 92%;
+    }
+}
